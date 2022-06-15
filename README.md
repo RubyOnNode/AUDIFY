@@ -10,6 +10,8 @@ churning behavior of the users and how likely ( probability ) users are going to
 have not yet uninstalled.
 
 # Brief overview of solution approach
+![image](https://user-images.githubusercontent.com/68632681/173781790-d1de1957-0d3b-438e-89af-c90a8cb3f18f.png)
+
 
 ● We will be using pyspark with hadoop for loading the data as we are dealing with big data. As
 we have multiple entries of a single user id, we will group them by user id and sum up all the
